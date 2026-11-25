@@ -1,0 +1,12 @@
+=== rose_boot_optionC.R run log - started 2026-08-16 03:19:04 ===
+[2026-08-16 03:19:04] Loaded 4080 rows, 3505 persons, 575 events. theta_fixed=0.8236, B=1000, cores=8 
+[2026-08-16 03:19:04] Failure counts by pooled event stratum: 
+[2026-08-16 03:19:10] Point: AG b1=0.1858, CF b1=0.1782 (theta 0.824). Secondary AUC=-0.0335 
+[2026-08-16 03:19:10] Resuming: 1000 draws already done. 
+[2026-08-16 03:19:10] ============================================================= 
+[2026-08-16 03:19:10] ROSE secondary effect - Option C bootstrap (theta fixed=0.824) 
+[2026-08-16 03:19:10] Replicates: 1000 total, 0 failed. (Fixed two-strata pooling; all estimable.) 
+[2026-08-16 03:19:10] Recurrences per resample: median 35. 
+[2026-08-16 03:19:10] Secondary effect (AUC): point=-0.0335  95% CI (-0.0572, -0.0149) 
+[2026-08-16 03:19:10] Wrote boot_C_draws.csv and boot_C_summary.rds. 
+[2026-08-16 03:19:10] TOTAL wall-clock: 0.1 min. 

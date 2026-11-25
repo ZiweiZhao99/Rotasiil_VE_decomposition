@@ -1,0 +1,21 @@
+=== rose_boot_optionC.R run log - started 2026-08-20 02:31:17 ===
+[2026-08-20 02:31:17] Loaded 4080 rows, 3505 persons, 575 events. theta_fixed=0.7507, B=1000, cores=8 
+[2026-08-20 02:31:17] Failure counts by pooled event stratum: 
+[2026-08-20 02:31:23] Point: AG b1=0.1858, CF b1=0.1791 (theta 0.751). Secondary AUC=-0.0310 
+[2026-08-20 02:37:11] Chunk 1/10: 100 draws in 346.9 s. Total 100/1000. 
+[2026-08-20 02:42:08] Chunk 2/10: 100 draws in 296.3 s. Total 200/1000. 
+[2026-08-20 02:48:01] Chunk 3/10: 100 draws in 353.5 s. Total 300/1000. 
+[2026-08-20 02:53:58] Chunk 4/10: 100 draws in 356.9 s. Total 400/1000. 
+[2026-08-20 02:59:25] Chunk 5/10: 100 draws in 326.6 s. Total 500/1000. 
+[2026-08-20 03:04:10] Chunk 6/10: 100 draws in 284.9 s. Total 600/1000. 
+[2026-08-20 03:08:57] Chunk 7/10: 100 draws in 287.4 s. Total 700/1000. 
+[2026-08-20 03:13:45] Chunk 8/10: 100 draws in 288.0 s. Total 800/1000. 
+[2026-08-20 03:18:35] Chunk 9/10: 100 draws in 289.7 s. Total 900/1000. 
+[2026-08-20 03:23:17] Chunk 10/10: 100 draws in 281.7 s. Total 1000/1000. 
+[2026-08-20 03:23:17] ============================================================= 
+[2026-08-20 03:23:17] ROSE secondary effect - Option C bootstrap (theta fixed=0.751) 
+[2026-08-20 03:23:17] Replicates: 1000 total, 0 failed. (Fixed two-strata pooling; all estimable.) 
+[2026-08-20 03:23:17] Recurrences per resample: median 35. 
+[2026-08-20 03:23:17] Secondary effect (AUC): point=-0.0310  95% CI (-0.0537, -0.0132) 
+[2026-08-20 03:23:17] Wrote boot_C_draws.csv and boot_C_summary.rds. 
+[2026-08-20 03:23:17] TOTAL wall-clock: 52.0 min. 

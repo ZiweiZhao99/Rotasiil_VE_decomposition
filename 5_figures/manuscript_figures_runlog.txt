@@ -1,0 +1,44 @@
+=== manuscript_figures.R run log - started 2026-11-24 21:14:21 ===
+[2026-11-24 21:14:21] Settings: B=1000, parallel bootstrap (2 cores), theta_hat=0.8236, Tau=20, base_seed=20260101 
+[2026-11-24 21:14:21] R 4.5.2; survival 3.8.3 
+[2026-11-24 21:14:21] Loaded ROSE_ph.csv: 4080 rows, 3505 persons, 575 events. 
+[2026-11-24 21:14:29] Full-data fits done in 8.6 s. 
+[2026-11-24 21:14:29] FE: b0=-0.532 b1=0.156 AUC=0.189 
+[2026-11-24 21:14:29] AG: b0=-0.551 b1=0.186 AUC=0.152 
+[2026-11-24 21:14:29] CF: b0=-0.575 b1=0.178 AUC=0.185 (theta fixed 0.824) 
+[2026-11-24 21:14:29] Secondary AUC point (AG-CF, normalized): -0.0335 
+[2026-11-24 21:14:29] Starting parallel bootstrap: B=1000 on 2 cores... 
+[2026-11-24 21:16:07] Bootstrap progress: 50/1000 (5.0%); elapsed 97.5 s. 
+[2026-11-24 21:17:41] Bootstrap progress: 100/1000 (10.0%); elapsed 191.4 s. 
+[2026-11-24 21:19:22] Bootstrap progress: 150/1000 (15.0%); elapsed 292.9 s. 
+[2026-11-24 21:21:05] Bootstrap progress: 200/1000 (20.0%); elapsed 396.0 s. 
+[2026-11-24 21:23:05] Bootstrap progress: 250/1000 (25.0%); elapsed 515.7 s. 
+[2026-11-24 21:24:40] Bootstrap progress: 300/1000 (30.0%); elapsed 610.6 s. 
+[2026-11-24 21:26:14] Bootstrap progress: 350/1000 (35.0%); elapsed 705.1 s. 
+[2026-11-24 21:27:50] Bootstrap progress: 400/1000 (40.0%); elapsed 800.7 s. 
+[2026-11-24 21:29:24] Bootstrap progress: 450/1000 (45.0%); elapsed 895.0 s. 
+[2026-11-24 21:30:57] Bootstrap progress: 500/1000 (50.0%); elapsed 987.4 s. 
+[2026-11-24 21:32:31] Bootstrap progress: 550/1000 (55.0%); elapsed 1082.0 s. 
+[2026-11-24 21:34:06] Bootstrap progress: 600/1000 (60.0%); elapsed 1176.3 s. 
+[2026-11-24 21:35:41] Bootstrap progress: 650/1000 (65.0%); elapsed 1271.8 s. 
+[2026-11-24 21:37:14] Bootstrap progress: 700/1000 (70.0%); elapsed 1365.2 s. 
+[2026-11-24 21:38:45] Bootstrap progress: 750/1000 (75.0%); elapsed 1456.1 s. 
+[2026-11-24 21:40:26] Bootstrap progress: 800/1000 (80.0%); elapsed 1556.3 s. 
+[2026-11-24 21:42:10] Bootstrap progress: 850/1000 (85.0%); elapsed 1661.1 s. 
+[2026-11-24 21:43:54] Bootstrap progress: 900/1000 (90.0%); elapsed 1764.5 s. 
+[2026-11-24 21:45:38] Bootstrap progress: 950/1000 (95.0%); elapsed 1868.5 s. 
+[2026-11-24 21:47:18] Bootstrap progress: 1000/1000 (100.0%); elapsed 1968.5 s. 
+[2026-11-24 21:47:18] Bootstrap done in 1968.5 s (1.97 s per replicate, parallel wall-clock). 
+[2026-11-24 21:47:18] Replicates: 1000 total, 0 failed. (Fixed two-strata pooling; all estimable.) 
+[2026-11-24 21:47:18] Recurrences (2nd+ episodes) per resample: median 35. 
+[2026-11-24 21:47:18] t= 1 mo: VE FE=0.412 AG=0.424 CF=0.437 | secondary=-0.0135 (95% band -0.0191, -0.0061) 
+[2026-11-24 21:47:18] t= 6 mo: VE FE=0.223 AG=0.196 CF=0.226 | secondary=-0.0296 (95% band -0.0467, -0.0143) 
+[2026-11-24 21:47:18] t=12 mo: VE FE=0.135 AG=0.085 CF=0.124 | secondary=-0.0384 (95% band -0.0682, -0.0158) 
+[2026-11-24 21:47:18] t=20 mo: VE FE=0.063 AG=-0.006 CF=0.040 | secondary=-0.0460 (95% band -0.0871, -0.0166) 
+[2026-11-24 21:47:18] Pointwise band upper limit, max over (0, 20]: 0.0068 (band excludes zero if < 0) 
+[2026-11-24 21:47:18] Table 2 AUC secondary effect: point=-0.0335  95% CI (-0.0572, -0.0149) 
+[2026-11-24 21:47:19] Wrote Figure1_VE_curves.png / .pdf 
+[2026-11-24 21:47:19] Wrote Figure2_secondary_effect.png / .pdf 
+[2026-11-24 21:47:19] SECONDARY EFFECT (AUC): point=-0.0335  95% CI (-0.0572, -0.0149) 
+[2026-11-24 21:47:19] Failed resamples: 0 of 1000. 
+[2026-11-24 21:47:19] TOTAL wall-clock: 1978.4 s (33.0 min). 
