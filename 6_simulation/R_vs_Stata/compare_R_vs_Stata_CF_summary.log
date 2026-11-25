@@ -1,0 +1,39 @@
+R 4.5.2; survival 3.8.3; 4 cores
+REUSE_FITS=1: summarizing saved R_sim_fits.csv (no refitting).
+
+================ R frailty convergence ================
+ theta_true   n converged nonconverged
+        0.2 100       100            0
+        1.0 100       100            0
+
+================ Mean fit time per model (seconds) ================
+ theta_true   fe   ag   cf
+        0.2 3.32 5.39 5.53
+        1.0 3.39 6.11 5.52
+
+================ CF (primary) AUC bias: R vs Stata ================
+ theta_true package   mean    bias
+        1.0       R 0.1712 -0.0245
+        1.0   Stata 0.2019 +0.0063
+        0.2       R 0.1735 -0.0221
+        0.2   Stata 0.1967 +0.0011
+
+================ CF theta estimate: R vs Stata ================
+ theta_true package  mean   bias
+        1.0       R 0.892 -0.108
+        1.0   Stata 1.340 +0.340
+        0.2       R 0.144 -0.056
+        0.2   Stata 0.554 +0.354
+
+================ R frailty variance collapsing to ~0 ================
+ theta_true   n theta_lt_1e3 pct_theta_near0 max_theta
+        0.2 100           88              88      3.71
+        1.0 100           55              55     13.03
+
+Wrote R_sim_fits.csv (per-dataset) and R_vs_Stata_CF_bias.csv (summary).
+
+================ Recurrence among children with >=1 episode ================
+ theta_true n_datasets p_ge2_mean   p_ge2_sd  p_ge3_mean    p_ge3_sd
+        0.2        100 0.05077693 0.01064054 0.001572420 0.001819103
+        1.0        100 0.08078157 0.01399496 0.004535589 0.002974009
+Wrote simulation_recurrence_proportion.csv

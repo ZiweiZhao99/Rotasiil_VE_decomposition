@@ -1,0 +1,246 @@
+R 4.5.2; survival 3.8.3; 2 cores
+
+=== theta = 1 : 100 datasets in /Users/zhaoziwei/NUS Dropbox/Ziwei Zhao/STATA simulation tt splitting/out_tt_full_1 ===
+  [  2/100] simdata_002.csv  fe=4.9s ag=6.2s cf=4.8s  ok
+  [  1/100] simdata_001.csv  fe=4.8s ag=6.0s cf=5.3s  ok
+  [  3/100] simdata_003.csv  fe=3.0s ag=5.2s cf=4.2s  ok
+  [  4/100] simdata_004.csv  fe=2.9s ag=5.7s cf=5.5s  ok
+  [  5/100] simdata_005.csv  fe=2.9s ag=5.3s cf=4.8s  ok
+  [  6/100] simdata_006.csv  fe=3.2s ag=5.8s cf=4.9s  ok
+  [  7/100] simdata_007.csv  fe=3.1s ag=5.3s cf=4.2s  ok
+  [  8/100] simdata_008.csv  fe=2.9s ag=5.0s cf=5.1s  ok
+  [  9/100] simdata_009.csv  fe=2.7s ag=4.4s cf=4.1s  ok
+  [ 10/100] simdata_010.csv  fe=3.3s ag=5.7s cf=4.7s  ok
+  [ 11/100] simdata_011.csv  fe=3.3s ag=6.4s cf=4.9s  ok
+  [ 12/100] simdata_012.csv  fe=3.0s ag=4.3s cf=5.0s  ok
+  [ 13/100] simdata_013.csv  fe=3.0s ag=5.6s cf=4.9s  ok
+  [ 14/100] simdata_014.csv  fe=2.8s ag=4.9s cf=4.4s  ok
+  [ 15/100] simdata_015.csv  fe=2.6s ag=5.0s cf=9.2s  ok
+  [ 16/100] simdata_016.csv  fe=2.9s ag=6.4s cf=9.0s  ok
+  [ 17/100] simdata_017.csv  fe=6.1s ag=11.7s cf=8.7s  ok
+  [ 18/100] simdata_018.csv  fe=5.4s ag=12.0s cf=11.0s  ok
+  [ 19/100] simdata_019.csv  fe=4.3s ag=8.2s cf=9.3s  ok
+  [ 20/100] simdata_020.csv  fe=5.4s ag=8.4s cf=9.2s  ok
+  [ 21/100] simdata_021.csv  fe=6.5s ag=10.9s cf=8.0s  ok
+  [ 22/100] simdata_022.csv  fe=4.9s ag=9.5s cf=8.0s  ok
+  [ 23/100] simdata_023.csv  fe=5.7s ag=17.3s cf=9.2s  ok
+  [ 24/100] simdata_024.csv  fe=4.2s ag=18.7s cf=7.8s  ok
+  [ 25/100] simdata_025.csv  fe=4.8s ag=8.4s cf=7.0s  ok
+  [ 26/100] simdata_026.csv  fe=4.8s ag=7.9s cf=7.0s  ok
+  [ 27/100] simdata_027.csv  fe=3.9s ag=6.5s cf=5.7s  ok
+  [ 28/100] simdata_028.csv  fe=3.8s ag=6.5s cf=5.5s  ok
+  [ 30/100] simdata_030.csv  fe=3.8s ag=7.0s cf=6.2s  ok
+  [ 29/100] simdata_029.csv  fe=3.8s ag=6.8s cf=7.5s  ok
+  [ 32/100] simdata_032.csv  fe=3.7s ag=5.1s cf=5.0s  ok
+  [ 31/100] simdata_031.csv  fe=3.7s ag=5.3s cf=5.0s  ok
+  [ 34/100] simdata_034.csv  fe=3.2s ag=5.1s cf=5.1s  ok
+  [ 33/100] simdata_033.csv  fe=3.3s ag=5.5s cf=4.8s  ok
+  [ 35/100] simdata_035.csv  fe=3.0s ag=5.1s cf=4.1s  ok
+  [ 36/100] simdata_036.csv  fe=3.0s ag=5.5s cf=4.9s  ok
+  [ 37/100] simdata_037.csv  fe=3.1s ag=5.9s cf=5.2s  ok
+  [ 38/100] simdata_038.csv  fe=3.2s ag=6.1s cf=5.3s  ok
+  [ 39/100] simdata_039.csv  fe=3.1s ag=5.3s cf=4.4s  ok
+  [ 40/100] simdata_040.csv  fe=3.2s ag=5.4s cf=4.9s  ok
+  [ 42/100] simdata_042.csv  fe=2.8s ag=4.8s cf=4.5s  ok
+  [ 41/100] simdata_041.csv  fe=3.1s ag=5.9s cf=4.9s  ok
+  [ 43/100] simdata_043.csv  fe=3.1s ag=5.4s cf=4.5s  ok
+  [ 44/100] simdata_044.csv  fe=3.6s ag=5.8s cf=5.3s  ok
+  [ 45/100] simdata_045.csv  fe=3.1s ag=6.0s cf=5.1s  ok
+  [ 46/100] simdata_046.csv  fe=2.9s ag=5.4s cf=4.9s  ok
+  [ 47/100] simdata_047.csv  fe=2.7s ag=4.1s cf=4.0s  ok
+  [ 48/100] simdata_048.csv  fe=2.9s ag=4.6s cf=4.4s  ok
+  [ 49/100] simdata_049.csv  fe=3.0s ag=5.4s cf=4.1s  ok
+  [ 50/100] simdata_050.csv  fe=2.8s ag=4.9s cf=4.7s  ok
+  [ 51/100] simdata_051.csv  fe=3.1s ag=5.7s cf=4.7s  ok
+  [ 52/100] simdata_052.csv  fe=3.1s ag=5.8s cf=4.9s  ok
+  [ 53/100] simdata_053.csv  fe=2.9s ag=4.8s cf=4.4s  ok
+  [ 54/100] simdata_054.csv  fe=3.1s ag=5.3s cf=5.3s  ok
+  [ 55/100] simdata_055.csv  fe=2.8s ag=4.8s cf=6.1s  ok
+  [ 56/100] simdata_056.csv  fe=3.0s ag=6.5s cf=5.3s  ok
+  [ 57/100] simdata_057.csv  fe=3.5s ag=5.5s cf=9.0s  ok
+  [ 58/100] simdata_058.csv  fe=3.4s ag=6.4s cf=5.6s  ok
+  [ 60/100] simdata_060.csv  fe=3.3s ag=5.8s cf=5.4s  ok
+  [ 59/100] simdata_059.csv  fe=3.3s ag=6.4s cf=6.1s  ok
+  [ 61/100] simdata_061.csv  fe=2.8s ag=4.7s cf=5.4s  ok
+  [ 62/100] simdata_062.csv  fe=2.9s ag=5.2s cf=5.3s  ok
+  [ 64/100] simdata_064.csv  fe=3.1s ag=5.3s cf=5.1s  ok
+  [ 63/100] simdata_063.csv  fe=3.2s ag=6.0s cf=5.1s  ok
+  [ 66/100] simdata_066.csv  fe=2.9s ag=5.1s cf=4.5s  ok
+  [ 65/100] simdata_065.csv  fe=3.0s ag=5.2s cf=4.9s  ok
+  [ 68/100] simdata_068.csv  fe=3.1s ag=5.4s cf=4.7s  ok
+  [ 67/100] simdata_067.csv  fe=3.4s ag=5.9s cf=5.0s  ok
+  [ 70/100] simdata_070.csv  fe=3.2s ag=5.4s cf=5.0s  ok
+  [ 69/100] simdata_069.csv  fe=3.2s ag=5.5s cf=4.9s  ok
+  [ 72/100] simdata_072.csv  fe=3.2s ag=6.0s cf=5.1s  ok
+  [ 71/100] simdata_071.csv  fe=3.2s ag=5.2s cf=4.3s  ok
+  [ 74/100] simdata_074.csv  fe=3.0s ag=4.8s cf=4.7s  ok
+  [ 73/100] simdata_073.csv  fe=3.1s ag=5.5s cf=5.0s  ok
+  [ 76/100] simdata_076.csv  fe=3.1s ag=5.5s cf=4.9s  ok
+  [ 75/100] simdata_075.csv  fe=3.2s ag=5.1s cf=4.4s  ok
+  [ 78/100] simdata_078.csv  fe=2.9s ag=5.0s cf=4.1s  ok
+  [ 77/100] simdata_077.csv  fe=3.0s ag=5.6s cf=4.7s  ok
+  [ 80/100] simdata_080.csv  fe=3.3s ag=5.9s cf=5.4s  ok
+  [ 79/100] simdata_079.csv  fe=3.0s ag=5.2s cf=4.8s  ok
+  [ 81/100] simdata_081.csv  fe=3.0s ag=4.7s cf=4.7s  ok
+  [ 82/100] simdata_082.csv  fe=3.2s ag=4.8s cf=5.2s  ok
+  [ 84/100] simdata_084.csv  fe=2.9s ag=5.2s cf=4.6s  ok
+  [ 83/100] simdata_083.csv  fe=3.1s ag=5.4s cf=4.4s  ok
+  [ 86/100] simdata_086.csv  fe=3.0s ag=5.2s cf=5.6s  ok
+  [ 85/100] simdata_085.csv  fe=3.0s ag=5.6s cf=5.6s  ok
+  [ 88/100] simdata_088.csv  fe=3.6s ag=7.0s cf=5.2s  ok
+  [ 87/100] simdata_087.csv  fe=3.6s ag=6.5s cf=5.6s  ok
+  [ 90/100] simdata_090.csv  fe=2.6s ag=4.3s cf=5.7s  ok
+  [ 89/100] simdata_089.csv  fe=3.3s ag=5.4s cf=5.4s  ok
+  [ 92/100] simdata_092.csv  fe=3.5s ag=5.9s cf=4.8s  ok
+  [ 91/100] simdata_091.csv  fe=3.5s ag=5.4s cf=5.8s  ok
+  [ 94/100] simdata_094.csv  fe=3.6s ag=6.7s cf=5.2s  ok
+  [ 93/100] simdata_093.csv  fe=2.9s ag=6.2s cf=5.1s  ok
+  [ 96/100] simdata_096.csv  fe=3.1s ag=5.7s cf=6.0s  ok
+  [ 95/100] simdata_095.csv  fe=3.2s ag=5.7s cf=6.0s  ok
+  [ 98/100] simdata_098.csv  fe=3.0s ag=6.3s cf=5.7s  ok
+  [ 97/100] simdata_097.csv  fe=3.2s ag=5.8s cf=5.8s  ok
+  [ 99/100] simdata_099.csv  fe=3.3s ag=5.4s cf=5.3s  ok
+  [100/100] simdata_100.csv  fe=3.4s ag=5.4s cf=6.7s  ok
+theta=1 done in 13.3 min. CF converged 100/100.
+
+=== theta = 0.2 : 100 datasets in /Users/zhaoziwei/NUS Dropbox/Ziwei Zhao/STATA simulation tt splitting/out_tt_full_0.2 ===
+  [  1/100] simdata_001.csv  fe=4.6s ag=5.9s cf=5.8s  ok
+  [  2/100] simdata_002.csv  fe=4.6s ag=6.3s cf=6.7s  ok
+  [  3/100] simdata_003.csv  fe=3.4s ag=5.6s cf=5.0s  ok
+  [  4/100] simdata_004.csv  fe=3.0s ag=5.0s cf=5.6s  ok
+  [  5/100] simdata_005.csv  fe=3.0s ag=5.4s cf=8.3s  ok
+  [  6/100] simdata_006.csv  fe=3.3s ag=5.4s cf=8.6s  ok
+  [  7/100] simdata_007.csv  fe=4.0s ag=5.6s cf=5.8s  ok
+  [  8/100] simdata_008.csv  fe=3.7s ag=5.8s cf=5.3s  ok
+  [  9/100] simdata_009.csv  fe=3.1s ag=4.8s cf=5.3s  ok
+  [ 10/100] simdata_010.csv  fe=3.1s ag=5.4s cf=4.9s  ok
+  [ 11/100] simdata_011.csv  fe=2.9s ag=4.7s cf=4.6s  ok
+  [ 12/100] simdata_012.csv  fe=3.3s ag=5.8s cf=6.0s  ok
+  [ 13/100] simdata_013.csv  fe=3.8s ag=5.1s cf=5.6s  ok
+  [ 14/100] simdata_014.csv  fe=2.7s ag=4.7s cf=5.6s  ok
+  [ 15/100] simdata_015.csv  fe=3.0s ag=5.1s cf=5.0s  ok
+  [ 16/100] simdata_016.csv  fe=3.0s ag=4.6s cf=4.1s  ok
+  [ 17/100] simdata_017.csv  fe=3.3s ag=5.6s cf=5.9s  ok
+  [ 18/100] simdata_018.csv  fe=3.2s ag=5.2s cf=5.8s  ok
+  [ 20/100] simdata_020.csv  fe=3.0s ag=4.7s cf=4.9s  ok
+  [ 19/100] simdata_019.csv  fe=3.2s ag=5.2s cf=5.3s  ok
+  [ 22/100] simdata_022.csv  fe=3.0s ag=4.9s cf=5.5s  ok
+  [ 21/100] simdata_021.csv  fe=3.2s ag=5.4s cf=5.1s  ok
+  [ 24/100] simdata_024.csv  fe=3.1s ag=5.4s cf=5.9s  ok
+  [ 23/100] simdata_023.csv  fe=3.2s ag=5.4s cf=5.8s  ok
+  [ 26/100] simdata_026.csv  fe=2.5s ag=4.3s cf=4.5s  ok
+  [ 25/100] simdata_025.csv  fe=3.2s ag=5.2s cf=5.0s  ok
+  [ 28/100] simdata_028.csv  fe=3.0s ag=5.1s cf=5.3s  ok
+  [ 27/100] simdata_027.csv  fe=3.0s ag=5.1s cf=5.6s  ok
+  [ 30/100] simdata_030.csv  fe=3.2s ag=5.4s cf=4.7s  ok
+  [ 29/100] simdata_029.csv  fe=3.0s ag=5.1s cf=5.4s  ok
+  [ 32/100] simdata_032.csv  fe=3.2s ag=5.3s cf=4.9s  ok
+  [ 31/100] simdata_031.csv  fe=2.9s ag=4.5s cf=5.2s  ok
+  [ 34/100] simdata_034.csv  fe=3.0s ag=5.4s cf=4.6s  ok
+  [ 33/100] simdata_033.csv  fe=3.0s ag=4.9s cf=4.8s  ok
+  [ 36/100] simdata_036.csv  fe=3.2s ag=5.2s cf=5.5s  ok
+  [ 35/100] simdata_035.csv  fe=3.0s ag=4.6s cf=5.5s  ok
+  [ 38/100] simdata_038.csv  fe=3.2s ag=5.8s cf=5.0s  ok
+  [ 37/100] simdata_037.csv  fe=3.1s ag=5.0s cf=4.8s  ok
+  [ 39/100] simdata_039.csv  fe=3.0s ag=5.0s cf=5.4s  ok
+  [ 40/100] simdata_040.csv  fe=3.2s ag=5.5s cf=5.9s  ok
+  [ 42/100] simdata_042.csv  fe=2.9s ag=4.6s cf=4.5s  ok
+  [ 41/100] simdata_041.csv  fe=3.3s ag=5.7s cf=5.0s  ok
+  [ 44/100] simdata_044.csv  fe=3.0s ag=5.3s cf=5.8s  ok
+  [ 43/100] simdata_043.csv  fe=3.3s ag=4.9s cf=5.8s  ok
+  [ 46/100] simdata_046.csv  fe=3.5s ag=5.5s cf=4.9s  ok
+  [ 45/100] simdata_045.csv  fe=3.5s ag=6.0s cf=5.4s  ok
+  [ 48/100] simdata_048.csv  fe=3.2s ag=5.8s cf=6.4s  ok
+  [ 47/100] simdata_047.csv  fe=3.5s ag=5.8s cf=6.3s  ok
+  [ 50/100] simdata_050.csv  fe=3.4s ag=5.5s cf=6.3s  ok
+  [ 49/100] simdata_049.csv  fe=3.7s ag=5.6s cf=4.9s  ok
+  [ 51/100] simdata_051.csv  fe=3.2s ag=5.3s cf=5.2s  ok
+  [ 52/100] simdata_052.csv  fe=3.4s ag=5.7s cf=6.2s  ok
+  [ 54/100] simdata_054.csv  fe=3.3s ag=5.4s cf=5.3s  ok
+  [ 53/100] simdata_053.csv  fe=3.4s ag=5.8s cf=6.2s  ok
+  [ 56/100] simdata_056.csv  fe=3.6s ag=6.0s cf=6.3s  ok
+  [ 55/100] simdata_055.csv  fe=4.1s ag=6.8s cf=6.8s  ok
+  [ 58/100] simdata_058.csv  fe=3.3s ag=5.5s cf=5.7s  ok
+  [ 57/100] simdata_057.csv  fe=3.3s ag=5.4s cf=9.5s  ok
+  [ 60/100] simdata_060.csv  fe=6.9s ag=10.5s cf=6.1s  ok
+  [ 59/100] simdata_059.csv  fe=5.8s ag=7.4s cf=5.6s  ok
+  [ 62/100] simdata_062.csv  fe=3.7s ag=5.2s cf=5.8s  ok
+  [ 61/100] simdata_061.csv  fe=3.7s ag=5.9s cf=6.4s  ok
+  [ 64/100] simdata_064.csv  fe=3.4s ag=6.2s cf=5.7s  ok
+  [ 63/100] simdata_063.csv  fe=3.0s ag=5.1s cf=6.6s  ok
+  [ 66/100] simdata_066.csv  fe=3.4s ag=5.2s cf=5.1s  ok
+  [ 65/100] simdata_065.csv  fe=3.3s ag=5.9s cf=6.2s  ok
+  [ 68/100] simdata_068.csv  fe=3.5s ag=5.6s cf=5.8s  ok
+  [ 67/100] simdata_067.csv  fe=3.3s ag=4.9s cf=5.2s  ok
+  [ 70/100] simdata_070.csv  fe=3.3s ag=5.4s cf=5.9s  ok
+  [ 69/100] simdata_069.csv  fe=3.2s ag=5.5s cf=6.2s  ok
+  [ 72/100] simdata_072.csv  fe=3.2s ag=5.2s cf=4.8s  ok
+  [ 71/100] simdata_071.csv  fe=3.3s ag=4.9s cf=5.6s  ok
+  [ 74/100] simdata_074.csv  fe=3.3s ag=5.1s cf=6.0s  ok
+  [ 73/100] simdata_073.csv  fe=3.4s ag=5.8s cf=4.8s  ok
+  [ 76/100] simdata_076.csv  fe=3.3s ag=4.8s cf=4.8s  ok
+  [ 75/100] simdata_075.csv  fe=3.1s ag=5.2s cf=5.6s  ok
+  [ 78/100] simdata_078.csv  fe=3.2s ag=5.5s cf=4.8s  ok
+  [ 77/100] simdata_077.csv  fe=3.3s ag=5.9s cf=5.2s  ok
+  [ 80/100] simdata_080.csv  fe=3.4s ag=6.1s cf=5.1s  ok
+  [ 79/100] simdata_079.csv  fe=2.9s ag=4.9s cf=5.7s  ok
+  [ 82/100] simdata_082.csv  fe=3.3s ag=5.7s cf=5.0s  ok
+  [ 81/100] simdata_081.csv  fe=3.3s ag=5.4s cf=4.4s  ok
+  [ 84/100] simdata_084.csv  fe=3.0s ag=5.3s cf=6.0s  ok
+  [ 83/100] simdata_083.csv  fe=3.3s ag=5.6s cf=5.9s  ok
+  [ 86/100] simdata_086.csv  fe=3.2s ag=5.5s cf=5.3s  ok
+  [ 85/100] simdata_085.csv  fe=2.9s ag=4.7s cf=4.2s  ok
+  [ 88/100] simdata_088.csv  fe=3.1s ag=5.5s cf=5.2s  ok
+  [ 87/100] simdata_087.csv  fe=3.8s ag=5.0s cf=6.0s  ok
+  [ 90/100] simdata_090.csv  fe=3.4s ag=5.3s cf=6.0s  ok
+  [ 89/100] simdata_089.csv  fe=3.1s ag=5.2s cf=5.5s  ok
+  [ 92/100] simdata_092.csv  fe=3.6s ag=6.1s cf=5.2s  ok
+  [ 91/100] simdata_091.csv  fe=3.3s ag=5.4s cf=5.0s  ok
+  [ 94/100] simdata_094.csv  fe=3.3s ag=5.7s cf=6.1s  ok
+  [ 93/100] simdata_093.csv  fe=3.2s ag=5.1s cf=6.1s  ok
+  [ 96/100] simdata_096.csv  fe=3.0s ag=5.2s cf=4.3s  ok
+  [ 95/100] simdata_095.csv  fe=3.1s ag=5.0s cf=5.5s  ok
+  [ 98/100] simdata_098.csv  fe=2.7s ag=4.7s cf=4.1s  ok
+  [ 97/100] simdata_097.csv  fe=2.9s ag=4.7s cf=5.1s  ok
+  [100/100] simdata_100.csv  fe=3.3s ag=4.7s cf=5.2s  ok
+  [ 99/100] simdata_099.csv  fe=2.9s ag=4.4s cf=4.3s  ok
+theta=0.2 done in 12.6 min. CF converged 100/100.
+
+All fits done in 25.9 min total.
+
+================ R frailty convergence ================
+ theta_true   n converged nonconverged
+        0.2 100       100            0
+        1.0 100       100            0
+
+================ Mean fit time per model (seconds) ================
+ theta_true   fe   ag   cf
+        0.2 3.32 5.39 5.53
+        1.0 3.39 6.11 5.52
+Warning message:
+Expected 2 pieces. Missing pieces filled with `NA` in 2 rows [10, 20]. 
+
+================ CF (primary) AUC bias: R vs Stata ================
+ theta_true package   mean    bias
+        1.0       R 0.1712 -0.0245
+        1.0   Stata 0.2019 +0.0063
+        0.2       R 0.1735 -0.0221
+        0.2   Stata 0.1967 +0.0011
+
+================ CF theta estimate: R vs Stata ================
+ theta_true package  mean   bias
+        1.0   Stata 1.340 +0.340
+        0.2   Stata 0.554 +0.354
+
+================ R frailty variance collapsing to ~0 ================
+ theta_true   n theta_lt_1e3 pct_theta_near0 max_theta
+        0.2 100           88              88      3.71
+        1.0 100           55              55     13.03
+
+Wrote R_sim_fits.csv (per-dataset) and R_vs_Stata_CF_bias.csv (summary).
+
+================ Recurrence among children with >=1 episode ================
+ theta_true n_datasets p_ge2_mean   p_ge2_sd  p_ge3_mean    p_ge3_sd
+        0.2        100 0.05077693 0.01064054 0.001572420 0.001819103
+        1.0        100 0.08078157 0.01399496 0.004535589 0.002974009
+Wrote simulation_recurrence_proportion.csv
