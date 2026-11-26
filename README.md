@@ -1,6 +1,6 @@
 # Decomposing the time-varying efficacy of a rotavirus vaccine
 
-Analysis code for Zhao Z, Cheung YB. *Decomposing the Time-Varying Efficacy of a Rotavirus Vaccine into the Protection Provided by Vaccine-Induced Immunity and Impact of Reduction in Naturally Acquired Immunity: A Re-analysis of a Randomized Placebo-Controlled Trial of the Rotasiil Vaccine in Niger.*
+Analysis code for Zhao Z, Cheung YB. *Decomposing time-varying rotavirus vaccine efficacy to quantify the impact of naturally acquired immunity: a re-analysis of the Rotasiil trial in Niger.*
 
 ## Data availability
 
